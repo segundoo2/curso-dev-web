@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist</title>
+</head>
+<body>
+
+    <form action="https://sys4soft.com/udemy/forms/index.php" method="post">
+      
+        <div class="form-group">
+        
+            <h3>formulário</h3>
+            <label for="campo-opcoes">Indique a opções:</label>
+            <input type="text" name="campo-opcao" id="campo-opcoes" list="lista-dados">
+            <datalist id="lista-dados">
+                <option value="Portugal">
+                <option value="Brasil">
+                <option value="Angola">
+                <option value="Moçambique">
+            </datalist>
+       
+        </div>
+
+        <div class="form-group">
+            <input type="submit" value="Enviar">
+        </div>
+    
+    </form>
+</body>
+</html>

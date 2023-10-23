@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(172, 172, 172);
+}
+
+header {
+    background-color: darkblue;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.715);
+    text-align: center;
+    padding: 10px;
+    margin: 0px;
+    border: 0px;
+}
+
+nav {
+    text-align: center;
+}
+
+a.menu {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.756);
+    
+}
+.menu:hover{
+    color: orangered;
+}
+.menu:active {
+    color: orange;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: darkblue;
+}
+a:hover {
+    color: orangered;
+}
+a:active {
+    color: orange;
+}

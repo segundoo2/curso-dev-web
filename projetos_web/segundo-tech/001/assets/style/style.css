@@ -1,0 +1,68 @@
+/* gerais */
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    font: normal 12px Arial, Helvetica, sans-serif #4f3b78;
+}
+
+body{
+    background-color: #34343d;
+}
+
+/* ------------------------------------------- */
+
+/* header */
+img {
+    width: 280px;
+}
+
+header {
+    text-align: center;
+    background-color: #353b43;
+    padding-bottom: 15px;
+}
+
+nav {
+    background-color: #2a2b32bb;
+    padding: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1.5em;
+    color: #3f2e61;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+a:hover {
+    color: white;
+}
+
+/* ------------------------------------------- */
+
+/* section */
+
+section {
+    font-style: normal;
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3f2e61;
+    margin: 50px;
+    padding: 100px;
+    border-radius: 10px;
+    text-align: justify;
+    text-indent: 1.5em;
+    background-color: #2d2f35;
+    
+}
+
+h3 {
+    font-weight: bold;
+    text-indent: 0em;
+}
