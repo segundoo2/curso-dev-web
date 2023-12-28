@@ -1,0 +1,9 @@
+.container {
+    background-color: greenyellow;
+}
+.row {
+    background-color: rgb(0, 133, 0);
+}
+.col {
+    border: solid 2px rgb(0, 60, 1);
+}
