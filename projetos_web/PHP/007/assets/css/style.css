@@ -1,0 +1,20 @@
+body {
+    background-image: linear-gradient(to top left, #000 20%, #00ff00 95%);
+}
+
+h1 {
+    font-weight: bold;
+    background-image: linear-gradient(to top left, #000 20%, #00ff00 85%);
+    background-clip: text;
+    color: transparent;
+    font-weight: bold;
+
+}
+
+button {
+    background-image: linear-gradient(to top left, #000, #00ff00);
+}
+
+button:hover {
+    background-image: linear-gradient(to top left, #505050, #4dff4d);
+}
