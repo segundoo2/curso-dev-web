@@ -41,7 +41,7 @@ fclose($file);
     <ul>
         <?php foreach ($veiculos as $veiculo) : ?>
 
-            <?php if ($veiculo->get_Tipo() == 'automovel') : ?>
+            <?php if ($veiculo->get_Tipo() == 'automovel' && $veiculo->get_Ano() <= '2015') : ?>
                 <li><?= $veiculo->apresentar() ?></li>
             <?php endif; ?>
 
@@ -54,7 +54,7 @@ fclose($file);
     <ul>
         <?php foreach ($veiculos as $veiculo) : ?>
 
-            <?php if ($veiculo->get_Tipo() == 'barco') : ?>
+            <?php if ($veiculo->get_Tipo() == 'barco' && $veiculo->get_Ano() <= '2015') : ?>
                 <li><?= $veiculo->apresentar() ?></li>
             <?php endif; ?>
 
@@ -67,7 +67,7 @@ fclose($file);
     <ul>
         <?php foreach ($veiculos as $veiculo) : ?>
 
-            <?php if ($veiculo->get_Tipo() == 'aviao'): ?>
+            <?php if ($veiculo->get_Tipo() == 'aviao' && $veiculo->get_Ano() <= '2015'): ?>
                 <li><?= $veiculo->apresentar() ?></li>
             <?php endif; ?>
 
