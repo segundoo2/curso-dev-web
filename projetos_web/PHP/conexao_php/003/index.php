@@ -1,5 +1,5 @@
 <?php 
-use stock\Database;
+use segundo\Database;
 
 define('MYSQL_CONFIG', [
     'host' => 'localhost',

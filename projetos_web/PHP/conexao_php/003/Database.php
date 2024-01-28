@@ -1,6 +1,6 @@
 <?php
 
-namespace stock;
+namespace segundo;
 
 use PDO;
 use PDOException;
